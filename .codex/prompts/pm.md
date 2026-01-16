@@ -35,6 +35,7 @@ argument-hint: GOAL="<老板一句话目标>" [ACTION=sync|plan|assign|reviewpac
 - 为 P0/P1 任务生成 TASK_ID、Owner、分支名，并写入 TASKS/PROGRESS
   如果 ACTION=reviewpack：
 - 生成老板决策包（范围冻结点/方案A-B/成本周期/风险/删减项/开发计划/测试计划）
+- 输出明确的老板决策问题，并停止等待老板批准/否决/调整
   如果 ACTION=snapshot：
 - 更新 CONTEXT_SNAPSHOT（用于重置环境）
 
