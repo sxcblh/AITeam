@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+
+openspec/changes/*
+openspec/*.tmp
+openspec/*.log
+
+/.codex/.sandbox/*
+/.codex/skills/*
+/.codex/tmp/*
+/.codex/log/*
+/.codex/sessions/*
+/.codex/history.jsonl

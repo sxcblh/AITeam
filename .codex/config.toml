@@ -1,0 +1,11 @@
+# 尽量自动执行（不再反复 ask）
+approval_policy = "never"
+
+# 建议保留 sandbox，但允许写工作区
+sandbox_mode = "workspace-write"
+model = "gpt-5.2-codex"
+model_reasoning_effort = "high"
+
+[features]
+experimental_windows_sandbox = true
+elevated_windows_sandbox = true
