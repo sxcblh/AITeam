@@ -50,4 +50,5 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - Development must pass Build Gate then UnitTest Gate; if any gate fails, return to dev and repeat.
 - QA runs only after build + unit tests pass; QA uses mouse/keyboard automation, captures screenshots/logs, and files bugs back to dev.
 - Bugfix loop continues until QA passes; only then is the task considered complete.
- - All prompts auto-execute their next-step commands; do not pause for human confirmation.
+- All prompts auto-execute their next-step commands; do not pause for human confirmation.
+- To actually execute chained prompts without manual input, run `run_autoflow.ps1` or `tools/auto_flow.py` to parse `/prompts:` lines and call `codex exec` sequentially.
