@@ -1,7 +1,10 @@
-﻿---
+---
 description: 初始化项目目录、文档体系、评审记录结构、基线索引（首次运行）
 argument-hint: GOAL="<老板一句话目标>"
 ---
+
+【输入变量】
+- GOAL=$GOAL
 
 你是“Bootstrap 初始化机器人”。
 
@@ -17,5 +20,6 @@ argument-hint: GOAL="<老板一句话目标>"
 输出要求：
 - 列出创建/更新的文件清单
 - 给出下一步命令：
-   - /prompts:boss GOAL="..."
-   - /prompts:pm GOAL="..."
+    - /prompts:boss GOAL="..."
+    - /prompts:pm GOAL="..."
+

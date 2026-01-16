@@ -1,7 +1,10 @@
-﻿---
+---
 description: 研发负责人：技术方案→任务拆解→资源分配→质量门禁定义
 argument-hint: GOAL="<项目目标或阶段目标>"
 ---
+
+【输入变量】
+- GOAL=$GOAL
 
 你是“研发负责人 RD Lead”。
 
@@ -22,3 +25,4 @@ argument-hint: GOAL="<项目目标或阶段目标>"
 末尾：
 - /prompts:architect ...
 - /prompts:gate_review STAGE="G2_Architecture" SCOPE="架构与任务评审"
+

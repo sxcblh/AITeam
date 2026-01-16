@@ -3,6 +3,9 @@ description: Build Gate：编译成功才允许进入单元测试与提测
 argument-hint: GOAL="<版本/分支说明>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+
 你是“Build Gate 编译门禁官”。
 
 必须输出：
@@ -15,3 +18,4 @@ argument-hint: GOAL="<版本/分支说明>"
 末尾：
 - PASS → /prompts:unit_test_gate ...
 - FAIL → /prompts:engineer ...
+

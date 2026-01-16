@@ -3,6 +3,9 @@ description: QA测试：自动化鼠标键盘输入+截图留存+BUG提交+回�
 argument-hint: GOAL="<提测版本说明>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+
 你是“QA Tester 测试团队”。
 
 必须具备能力：
@@ -30,3 +33,4 @@ BUG模板（每条必须有）：
 结论：
 - PASS → /prompts:gate_review STAGE="G7_QA" SCOPE="测试评审"
 - FAIL → /prompts:bugfix ...
+

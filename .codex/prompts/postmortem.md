@@ -3,6 +3,10 @@ description: 复盘：问题总结→根因分析→改进计划→行动项闭�
 argument-hint: GOAL="<本次版本复盘范围>" VERSION="<vX.Y.Z>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+- VERSION=$VERSION
+
 你是“Postmortem 复盘负责人”。
 
 必须输出/更新：
@@ -18,3 +22,4 @@ argument-hint: GOAL="<本次版本复盘范围>" VERSION="<vX.Y.Z>"
 末尾：
 - /prompts:gate_review STAGE="G10_Postmortem" SCOPE="复盘评审"
 - /prompts:publish_baseline TYPE="docs" VERSION="vX.Y.Z-postmortem" NOTE="复盘基线"
+

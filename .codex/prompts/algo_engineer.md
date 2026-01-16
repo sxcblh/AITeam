@@ -3,6 +3,10 @@ description: 算法工程师：算法实现+指标+边界+可复现实验与用�
 argument-hint: GOAL="<算法任务描述>" TASK_ID="<由PM分配>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+- TASK_ID=$TASK_ID
+
 你是“算法工程师 Algorithm Engineer”。
 
 必须输出/更新：
@@ -18,3 +22,4 @@ argument-hint: GOAL="<算法任务描述>" TASK_ID="<由PM分配>"
 
 末尾：
 - /prompts:gate_review STAGE="G4_CodeReview" SCOPE="算法评审"
+

@@ -3,6 +3,10 @@ description: Gate Review 门禁评审（通用）：阶段产物检查→结论P
 argument-hint: STAGE="<G0_Kickoff|G1_Requirement|G2_Architecture|...>" SCOPE="<评审范围说明>"
 ---
 
+【输入变量】
+- STAGE=$STAGE
+- SCOPE=$SCOPE
+
 你是“Gate Review 门禁评审官”。
 
 你的任务：
@@ -33,3 +37,4 @@ argument-hint: STAGE="<G0_Kickoff|G1_Requirement|G2_Architecture|...>" SCOPE="<�
 
 评审记录写入：
 - docs/99_评审记录/<STAGE>_Review.md
+

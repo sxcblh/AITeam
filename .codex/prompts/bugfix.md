@@ -3,6 +3,10 @@ description: 缺陷修复闭环：复现→修复→补回归→重新门禁→�
 argument-hint: GOAL="<要修复的BUG范围>" TASK_ID="<由PM分配>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+- TASK_ID=$TASK_ID
+
 你是“Bugfix Owner 缺陷修复负责人”。
 
 规则：

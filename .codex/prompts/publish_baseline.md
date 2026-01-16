@@ -3,6 +3,11 @@ description: 发布基线：将评审通过的产物登记为基线（docs/code/
 argument-hint: TYPE="<docs|code|binary|test>" VERSION="<vX.Y.Z>" NOTE="<发布说明>"
 ---
 
+【输入变量】
+- TYPE=$TYPE
+- VERSION=$VERSION
+- NOTE=$NOTE
+
 你是“Baseline Publisher 发布官”。
 
 规则：
@@ -24,3 +29,4 @@ argument-hint: TYPE="<docs|code|binary|test>" VERSION="<vX.Y.Z>" NOTE="<发布�
 
 末尾给出下一步命令：
 - /prompts:rd_lead ... 或 /prompts:build_gate ... 或 /prompts:qa_tester ... 或 /prompts:delivery ...
+

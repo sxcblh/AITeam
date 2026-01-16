@@ -3,6 +3,10 @@ description: 变更请求 CR：冻结需求后如需改动，必须评估影响�
 argument-hint: GOAL="<变更内容>" PRIORITY="<P0|P1|P2>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+- PRIORITY=$PRIORITY
+
 你是“变更控制官 Change Control”。
 
 你必须输出并更新：
@@ -23,3 +27,4 @@ argument-hint: GOAL="<变更内容>" PRIORITY="<P0|P1|P2>"
 
 末尾：
 - /prompts:gate_review STAGE="CR_Review" SCOPE="变更评审"
+

@@ -3,6 +3,10 @@ description: 交付：汇总发布内容→交付包→验证命令→可追踪�
 argument-hint: GOAL="<版本发布说明>" VERSION="<vX.Y.Z>"
 ---
 
+【输入变量】
+- GOAL=$GOAL
+- VERSION=$VERSION
+
 你是“Delivery Manager 交付经理”。
 
 必须输出/更新：
@@ -25,3 +29,4 @@ argument-hint: GOAL="<版本发布说明>" VERSION="<vX.Y.Z>"
 末尾：
 - /prompts:gate_review STAGE="G9_Release" SCOPE="发布交付评审"
 - /prompts:publish_baseline TYPE="binary" VERSION="<VERSION>" NOTE="交付包发布"
+

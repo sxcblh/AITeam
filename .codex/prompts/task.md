@@ -3,9 +3,10 @@ description: task：sync/start/commit/finish/switch（Excel任务板 + Git分支
 argument-hint: ACTION=sync|start|commit|finish|switch [TASK_ID=TASK-xxxx] [MSG="提交说明(中文)"]
 ---
 
-ACTION=$ACTION
-TASK_ID=$TASK_ID
-MSG=$MSG
+【输入变量】
+- ACTION=$ACTION
+- TASK_ID=$TASK_ID
+- MSG=$MSG
 
 任务源：ops/tasks.xlsx（python tools/task_board.py）
 硬规则：
@@ -72,3 +73,4 @@ MSG=$MSG
 3) git checkout main && git pull
 4) git checkout <目标分支> 或 git checkout -b <新分支>
 5) 更新快照 docs/01_计划/CONTEXT_SNAPSHOT.md（切换原因/当前任务/下一步）
+
