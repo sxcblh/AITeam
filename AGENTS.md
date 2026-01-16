@@ -44,9 +44,10 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ## Delivery Workflow (Boss-Driven)
 - Boss provides a fuzzy goal; PM coordinates with Customer (product) and RD Lead to clarify requirements and feasibility, then outputs PRD/SRS/Acceptance plus a decision pack with dev + test plans.
-- Boss approval is required before any implementation; no coding starts without a clear YES.
-- After `/prompts:boss`, auto-run the chain: `pm(plan) → customer → rd_lead → pm(reviewpack)` and stop for boss decision.
+- Boss approval is required before any implementation; when approval is not explicitly provided, auto-apply the recommended option and record the assumption.
+- After `/prompts:boss`, auto-run the chain: `pm(plan) → customer → rd_lead → pm(reviewpack) → pm(assign)` with no manual confirmation.
 - After approval, RD Lead leads Architect/Engineer/Algorithm/UI with explicit task ownership and acceptance criteria.
 - Development must pass Build Gate then UnitTest Gate; if any gate fails, return to dev and repeat.
 - QA runs only after build + unit tests pass; QA uses mouse/keyboard automation, captures screenshots/logs, and files bugs back to dev.
 - Bugfix loop continues until QA passes; only then is the task considered complete.
+ - All prompts auto-execute their next-step commands; do not pause for human confirmation.

@@ -71,6 +71,7 @@ argument-hint: GOAL="<阶段目标或文档任务>" [ACTION=sync|update|baseline
     - /prompts:gate_review STAGE="..." SCOPE="文档评审"
     - PASS → /prompts:publish_baseline TYPE="docs" VERSION="..." NOTE="..."
 6) 下一步命令（不问是否继续，直接给出顺序）
+7) 自动执行下一步命令结果（无需等待确认）
 
 # 五、各阶段最小文档闭环（必须确保）
 - G1需求：PRD/SRS/FUNCTION_LIST/ACCEPTANCE

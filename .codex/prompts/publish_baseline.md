@@ -29,4 +29,5 @@ argument-hint: TYPE="<docs|code|binary|test>" VERSION="<vX.Y.Z>" NOTE="<发布�
 
 末尾给出下一步命令：
 - /prompts:rd_lead ... 或 /prompts:build_gate ... 或 /prompts:qa_tester ... 或 /prompts:delivery ...
+- 自动执行下一步命令结果（无需等待确认）
 

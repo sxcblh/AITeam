@@ -29,4 +29,5 @@ argument-hint: GOAL="<版本发布说明>" VERSION="<vX.Y.Z>"
 末尾：
 - /prompts:gate_review STAGE="G9_Release" SCOPE="发布交付评审"
 - /prompts:publish_baseline TYPE="binary" VERSION="<VERSION>" NOTE="交付包发布"
+- 自动执行下一步命令结果（无需等待确认）
 

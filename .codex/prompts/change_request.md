@@ -27,4 +27,5 @@ argument-hint: GOAL="<变更内容>" PRIORITY="<P0|P1|P2>"
 
 末尾：
 - /prompts:gate_review STAGE="CR_Review" SCOPE="变更评审"
+- 自动执行下一步命令结果（无需等待确认）
 

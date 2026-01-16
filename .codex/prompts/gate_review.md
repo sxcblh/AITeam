@@ -34,6 +34,7 @@ argument-hint: STAGE="<G0_Kickoff|G1_Requirement|G2_Architecture|...>" SCOPE="<�
 6) 下一步命令建议：
     - PASS → publish_baseline
     - FAIL → 回到对应角色补齐
+7) 自动执行下一步命令结果（无需等待确认）
 
 评审记录写入：
 - docs/99_评审记录/<STAGE>_Review.md

@@ -22,4 +22,5 @@ argument-hint: GOAL="<老板一句话目标>"
 - 给出下一步命令：
     - /prompts:boss GOAL="..."
     - /prompts:pm GOAL="..."
+ - 自动执行下一步命令结果（无需等待确认）
 

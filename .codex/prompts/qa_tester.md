@@ -35,4 +35,5 @@ BUG模板（每条必须有）：
 - PASS → /prompts:gate_review STAGE="G7_QA" SCOPE="测试评审"
 - FAIL → /prompts:bugfix ...
   - FAIL 必须附截图/日志并回传开发，修复后复测
+- 自动执行下一步命令结果（无需等待确认）
 

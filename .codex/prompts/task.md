@@ -74,3 +74,6 @@ argument-hint: ACTION=sync|start|commit|finish|switch [TASK_ID=TASK-xxxx] [MSG="
 4) git checkout <目标分支> 或 git checkout -b <新分支>
 5) 更新快照 docs/01_计划/CONTEXT_SNAPSHOT.md（切换原因/当前任务/下一步）
 
+末尾要求：
+- 自动执行下一步命令结果（无需等待确认）
+

@@ -28,6 +28,7 @@ PRD 必须包含：
 ACCEPTANCE 至少写 10 条 Given-When-Then。
 
 末尾输出下一步命令：
-- /prompts:doc_manager GOAL="同步完善手册/说明书骨架"
+- /prompts:doc_manager GOAL="同步完善手册/说明书骨架" ACTION="sync" STAGE="G1" VERSION="v0.1.0"
 - /prompts:gate_review STAGE="G1_Requirement" SCOPE="需求评审"
+并自动执行以上命令结果（无需等待确认）。
 

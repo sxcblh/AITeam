@@ -109,3 +109,6 @@ argument-hint: ACTION=start|commit|finish|switch [TASK_ID=TASK-xxxx] [GOAL="任�
 - 禁止英文提交信息（除非专有名词）
 - 禁止“编译失败仍提交为完成”
 
+末尾要求：
+- 自动执行下一步命令结果（无需等待确认）
+

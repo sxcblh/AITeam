@@ -27,4 +27,5 @@ argument-hint: GOAL="<本阶段目标>" STAGE="<G0~G10>"
 末尾：
 - PASS → /prompts:publish_baseline ...
 - FAIL → 指定回到哪个角色 prompt（pm/engineer/doc_manager/qa_tester）
+ - 自动执行下一步命令结果（无需等待确认）
 

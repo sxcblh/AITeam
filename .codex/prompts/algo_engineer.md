@@ -22,4 +22,5 @@ argument-hint: GOAL="<算法任务描述>" TASK_ID="<由PM分配>"
 
 末尾：
 - /prompts:gate_review STAGE="G4_CodeReview" SCOPE="算法评审"
+- 自动执行下一步命令结果（无需等待确认）
 

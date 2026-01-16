@@ -21,4 +21,5 @@ argument-hint: GOAL="<阶段目标>"
 
 末尾：
 - /prompts:gate_review STAGE="G2_Architecture" SCOPE="架构评审"
+- 自动执行下一步命令结果（无需等待确认）
 

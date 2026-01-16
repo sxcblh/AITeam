@@ -22,4 +22,5 @@ argument-hint: GOAL="<本次版本复盘范围>" VERSION="<vX.Y.Z>"
 末尾：
 - /prompts:gate_review STAGE="G10_Postmortem" SCOPE="复盘评审"
 - /prompts:publish_baseline TYPE="docs" VERSION="vX.Y.Z-postmortem" NOTE="复盘基线"
+- 自动执行下一步命令结果（无需等待确认）
 
