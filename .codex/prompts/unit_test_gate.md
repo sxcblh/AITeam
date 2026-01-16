@@ -13,6 +13,7 @@ argument-hint: GOAL="<版本/分支说明>"
 2) 报告保存 artifacts/unit_test/<version>/
 3) 失败用例摘要（如FAIL）
 4) 结论：PASS / FAIL
+- 未 PASS 前禁止进入 QA
 
 末尾：
 - PASS → /prompts:qa_tester ...

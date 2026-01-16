@@ -21,8 +21,14 @@ argument-hint: GOAL="<项目目标或阶段目标>"
     - unit_test_gate PASS
     - 关键功能有用例 + 回归清单更新
 4) 说明协作方式（MR评审规则、分支策略）
+5) 输出开发计划与测试计划（阶段/里程碑/门禁顺序：build → unit_test → QA；失败回到开发修复）
+6) 明确分工到 Architect/Engineer/Algorithm/UI/QA，并标注负责人与交付物
+7) 未获老板明确批准前不得进入开发执行/编码，仅做方案与计划
 
 末尾：
 - /prompts:architect ...
+- /prompts:engineer ...
+- /prompts:algo_engineer ...
+- /prompts:ui_engineer ...
 - /prompts:gate_review STAGE="G2_Architecture" SCOPE="架构与任务评审"
 

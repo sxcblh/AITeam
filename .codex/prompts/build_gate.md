@@ -14,6 +14,7 @@ argument-hint: GOAL="<版本/分支说明>"
 3) 产物路径 artifacts/build/<version>/
 4) 结论：PASS / FAIL
 - FAIL：列出可能原因 + 回到开发修复建议
+- 未 PASS 前禁止进入 unit_test 与 QA
 
 末尾：
 - PASS → /prompts:unit_test_gate ...

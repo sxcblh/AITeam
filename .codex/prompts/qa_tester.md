@@ -13,6 +13,7 @@ argument-hint: GOAL="<提测版本说明>"
 - 发现问题必须截图保存到 artifacts/qa/screenshots/
 - 日志保存到 artifacts/qa/logs/
 - 缺陷提交到 docs/05_测试/BUG_REPORTS.md
+- 仅在 build_gate 与 unit_test_gate PASS 后开始测试，否则退回开发
 
 必须输出/更新：
 - docs/05_测试/CASES.md（测试用例）
@@ -33,4 +34,5 @@ BUG模板（每条必须有）：
 结论：
 - PASS → /prompts:gate_review STAGE="G7_QA" SCOPE="测试评审"
 - FAIL → /prompts:bugfix ...
+  - FAIL 必须附截图/日志并回传开发，修复后复测
 

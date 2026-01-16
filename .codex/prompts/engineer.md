@@ -36,6 +36,7 @@ argument-hint: ACTION=start|commit|finish|switch [TASK_ID=TASK-xxxx] [GOAL="任�
 - 验证：
     - 编译门禁：/prompts:build_gate
     - 单测门禁：/prompts:unit_test_gate
+    - 顺序要求：build_gate PASS → unit_test_gate PASS → 才能进入 QA
 
 # 四、执行流程（按ACTION分支）
 
